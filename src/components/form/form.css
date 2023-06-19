@@ -1,5 +1,37 @@
 .formulario {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  background: green;
-  text-align: center;
+  text-align: left;
+  margin: 0px 0;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='600' preserveAspectRatio='none' viewBox='0 0 1440 600'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1016%26quot%3b)' fill='none'%3e%3cpath d='M30.506%2c488.639C62.343%2c488.574%2c94.018%2c472.546%2c107.446%2c443.679C119.472%2c417.825%2c102.971%2c390.293%2c87.35%2c366.439C73.718%2c345.621%2c55.378%2c326.963%2c30.506%2c326.187C4.401%2c325.372%2c-18.482%2c340.867%2c-32.835%2c362.688C-49.038%2c387.322%2c-60.229%2c417.654%2c-46.982%2c443.996C-32.627%2c472.54%2c-1.444%2c488.705%2c30.506%2c488.639' fill='rgba(100%2c 149%2c 237%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M113.886%2c309.625C130.179%2c309.885%2c141.303%2c294.719%2c148.758%2c280.23C155.475%2c267.177%2c157.726%2c251.733%2c150.141%2c239.164C142.771%2c226.951%2c128.148%2c222.222%2c113.886%2c222.444C100.063%2c222.659%2c86.49%2c228.316%2c79.536%2c240.265C72.545%2c252.279%2c74.718%2c266.692%2c80.887%2c279.148C88.009%2c293.529%2c97.84%2c309.369%2c113.886%2c309.625' fill='rgba(100%2c 149%2c 237%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M720.3555512438869 475.45084144605653L689.4691908303192 330.1419402721824 544.160289656445 361.0283006857501 575.0466500700128 506.33720185962426z' fill='rgba(100%2c 149%2c 237%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M716.699%2c322.964C744.925%2c321.708%2c771.033%2c309.485%2c786.542%2c285.868C803.883%2c259.461%2c814.181%2c225.74%2c798.587%2c198.265C782.851%2c170.538%2c748.57%2c161.994%2c716.699%2c162.809C686.448%2c163.582%2c657.846%2c176.647%2c641.753%2c202.274C624.545%2c229.676%2c618.118%2c265.116%2c635.188%2c292.604C651.581%2c319.003%2c685.655%2c324.346%2c716.699%2c322.964' fill='rgba(100%2c 149%2c 237%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M932.2187492754518 627.4730891831188L1088.4260723085163 635.8088533803104 1028.4814247942202 512.9041122996326z' fill='rgba(100%2c 149%2c 237%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1346.3489185495002 331.09586281226825L1273.778266752564 343.8920267316674 1329.2578385301306 446.34992246737227z' fill='rgba(100%2c 149%2c 237%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M542.5366592936211-85.340834587771L439.62670367487726 10.624251540464911 535.5917898031132 113.5342071592088 638.5017454218571 17.569121030972894z' fill='rgba(100%2c 149%2c 237%2c 1)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1016'%3e%3crect width='1440' height='600' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+form {
+  width: calc(80% - 50px);
+}
+
+.formulario form {
+  margin: 80px 0;
+  max-width: 100%;
+  background-color: white;
+  box-shadow: 7px 7px 1px rgba(0, 0, 0, 5);
+  border-radius: 20px;
+  padding: 8px 30px;
+}
+
+.formulario h2 {
+  font-family: "Bebas Neue", sans-serif;
+
+  font-size: 36px;
+  font-weight: 400;
+  color: #21b0d366;
+}
+
+.formulario input {
+  margin-bottom: 5px;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
 }

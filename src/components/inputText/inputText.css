@@ -1,13 +1,26 @@
 .campo-texto {
   margin: 24px 0px;
+  display: flex;
 }
 
 .campo-texto label {
-  display: block;
+  display: flex;
+  color: cornflowerblue;
+  line-height: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: left;
+  width: 40%;
+  font-size: 18px;
 }
 
 .campo-texto input {
+  color: #6495ed;
   width: 100%;
   background-color: white;
   outline-color: blueviolet;
+  border: none;
+  border-bottom: 1px solid cornflowerblue;
+  outline: none;
 }

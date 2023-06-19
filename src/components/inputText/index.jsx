@@ -1,9 +1,10 @@
 import './inputText.css'
 
-const InputText = () => {
+const InputText = (label) => {
+  console.log(label.titulo + " hola");
   return <div className='campo-texto'>
-    <label htmlFor="">Colaborador</label>
-    <input type="text" placeholder='Nombre del colaborar'/>
+    <label>{label.titulo}</label>
+    <input type="text" placeholder={label.placeholder}/>
   </div>
 }
 
