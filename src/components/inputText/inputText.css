@@ -1,0 +1,13 @@
+.campo-texto {
+  margin: 24px 0px;
+}
+
+.campo-texto label {
+  display: block;
+}
+
+.campo-texto input {
+  width: 100%;
+  background-color: white;
+  outline-color: blueviolet;
+}
