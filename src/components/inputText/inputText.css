@@ -6,7 +6,7 @@
 .campo-texto label {
   display: flex;
   color: cornflowerblue;
-  line-height: 15px;
+  line-height: 16px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
@@ -23,4 +23,17 @@
   border: none;
   border-bottom: 1px solid cornflowerblue;
   outline: none;
+}
+
+@media (max-width: 768px) {
+  .campo-texto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .campo-texto label {
+    display: flex;
+    margin: 0;
+    width: 80%;
+  }
 }
