@@ -1,0 +1,10 @@
+.btnCrear {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.btnCrear:hover {
+  background-color: transparent;
+  border: 1px solid cornflowerblue;
+  color: cornflowerblue;
+}

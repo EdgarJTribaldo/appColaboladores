@@ -1,22 +1,20 @@
-.campo-texto {
+.equipoLabel {
   margin: 24px 0px;
   display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
-.campo-texto label {
+.equipoLabel label {
   display: flex;
   color: cornflowerblue;
   line-height: 16px;
-  margin-left: auto;
-  margin-right: auto;
   align-items: center;
   text-align: left;
-  width: 40%;
   font-size: 18px;
 }
 
-.campo-texto input {
+.equipoLabel input {
   color: #6495ed;
   width: 100%;
   background-color: white;
@@ -24,15 +22,27 @@
   border: none;
   border-bottom: 1px solid cornflowerblue;
   outline: none;
+  box-sizing: border-box;
+}
+
+.equipoLabel select {
+  font-size: 18px;
+  color: #6495ed;
+  padding: 5px 4px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid cornflowerblue;
+  outline-color: #6495ed;
 }
 
 @media (max-width: 768px) {
-  .campo-texto {
+  .equipoLabel {
     display: flex;
     flex-direction: column;
   }
 
-  .campo-texto label {
+  .equipoLabel label {
     display: flex;
     margin: 0;
     width: 80%;
